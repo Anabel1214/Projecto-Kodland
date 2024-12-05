@@ -1,0 +1,66 @@
+body{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    position: fixed;
+}
+
+.marca{
+    display: inline;
+    font-family: Ruthie;
+    font-size: 50px;   
+}
+
+div{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+}
+
+.img1{
+    width: 200px;
+    height: 300px;
+}
+
+/*Articulo 2 (#Productos)*/
+.titulo2{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.container1{
+    background-color: #7CB5AF; 
+    padding: 120px;
+    border-radius: 50px;
+}
+.container2{
+    background-color: #7CB5AF; 
+    padding: 120px;
+    border-radius: 50px;
+}
+.container3{
+    background-color: #7CB5AF;
+    padding: 120px;
+    border-radius: 50px; 
+}
